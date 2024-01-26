@@ -1,0 +1,96 @@
+.container {
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.109);
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    gap: 40px;
+    padding: 8%;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.125);
+    color: white;
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.332);
+
+}
+
+input::placeholder {
+    color: white;
+    opacity: .5;
+}
+
+input:focus-visible,
+select:focus-visible {
+    outline: none;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.147);
+}
+
+.amount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.line2 {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.line2 div {
+    display: flex;
+    gap: 20px;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 3px;
+    margin-left: 4px;
+}
+
+select {
+    padding: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.729);
+}
+
+
+
+.btn {
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.125);
+    background-color: rgb(255, 205, 68);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 203, 59);
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.23);
+}
+
+.res {
+    font-size: large;
+    align-self: flex-start;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.resNum {
+    font-size: larger;
+}

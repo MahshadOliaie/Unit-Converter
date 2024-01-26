@@ -5,4 +5,8 @@ body{
   justify-content: center;
   height: 100vh;
   background-image: url(/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
