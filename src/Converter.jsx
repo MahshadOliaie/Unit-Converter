@@ -33,6 +33,13 @@ function Converter() {
         setResult((inputValue / units[from]) * (units[to]))
     }
 
+    function handleEnter(){
+        if(event.key === "Enter")
+        showResult()
+    }
+
+    window.addEventListener("keyup" , handleEnter)
+
     return (
         <section className='container'>
             <div className='amount'>
@@ -72,3 +79,4 @@ function Converter() {
 }
 
 export default Converter;
+
